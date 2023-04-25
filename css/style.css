@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap");
-*{
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,400&display=swap");
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 html {
-  font-size: 12px;
-  font-family: "Montserrat Subrayada";
-/*   font-family: "Josefin Sans", sans-serif; */
+  font-size: 1rem;
+  font-family: "Montserrat Subrayada", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
   background-color: rgb(97, 79, 68);
 }
 body {
@@ -38,11 +40,6 @@ h4 {
   position: relative;
   z-index: 1;
   /* display: none; */
-}
-#foodie a {
-
-  color: #000;
-
 }
 #top_intro {
   display: block;
