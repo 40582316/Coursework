@@ -69,6 +69,7 @@
 .carts-item.item5:before {
   background-image: url("https://i.ibb.co/rM1QvTK/c575d435418291-56f613efddcf7.jpg");
 }
+
 .carts-item:hover:before {
   /* background-size: 150%; */
   top: 50px;
@@ -96,4 +97,3 @@
     z-index: 9999999;
     transition: .4s ease-in-out;
   } */
-
