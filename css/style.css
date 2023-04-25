@@ -41,6 +41,11 @@ h4 {
   z-index: 1;
   /* display: none; */
 }
+#foodie a {
+
+  color: #000;
+
+}
 #top_intro {
   display: block;
   margin-left: auto;
