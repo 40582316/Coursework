@@ -9,10 +9,10 @@ img {
   height: 100%;
   object-fit: cover;
 }
-html {
+/* html {
   font-family: "Nunito";
   font-size: 12px;
-}
+} */
 
 section {
   /* min-height: 100vh; */
