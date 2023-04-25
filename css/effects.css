@@ -55,19 +55,19 @@
   border-radius: 15px;
 }
 .carts-item.item1:before {
-  background-image: url("https://i.ibb.co/DCDGbTW/Search.webp");
+  background-image: url("https://i.ibb.co/zhpV25x/icons8-food-recipe-book-66.png");
 }
 .carts-item.item2:before {
-  background-image: url("https://i.ibb.co/vQrB2hR/Meal-Planning.jpg");
+  background-image: url("https://i.ibb.co/CBsfCLM/image.png");
 }
 .carts-item.item3:before {
-  background-image: url("https://i.ibb.co/RzxDDRW/Shopping-List.webp");
+  background-image: url("https://i.ibb.co/NZgsWWW/your-image.png");
 }
 .carts-item.item4:before {
-  background-image: url("https://i.ibb.co/xMrX1nG/Recipe-Suggestions.jpg");
+  background-image: url("https://i.ibb.co/VwqPXz2/my-image.png");
 }
 .carts-item.item5:before {
-  background-image: url("https://i.ibb.co/n1HqgH2/Recipe-Ratings-and-Reviews.webp");
+  background-image: url("https://i.ibb.co/7yzp6j3/recipe-book.jpg");
 }
 .carts-item:hover:before {
   /* background-size: 150%; */
