@@ -9,7 +9,7 @@ searchForm.addEventListener("submit", (e) => {
 });
 
 async function fetchAPI() {
-  const res = await fetch("https://wjk69x-5000.csb.app/api?q=" + searchQuery);
+  const res = await fetch(url + searchQuery);
   const data = await res.json();
   generateHTML(data.hits);
   // console.log(data.hits[1].recipe);
