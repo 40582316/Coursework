@@ -9,10 +9,11 @@
 html {
   font-size: 12px;
   font-family: "Montserrat Subrayada", sans-serif;
-  /* font-family: "Josefin Sans", sans-serif; */
+  font-family: "Josefin Sans", sans-serif;
   background-color: rgb(97, 79, 68);
 }
 body {
+  min-width: 430px;
 }
 a {
   text-decoration: none;
@@ -40,6 +41,9 @@ h4 {
   position: relative;
   z-index: 1;
   /* display: none; */
+}
+#foodie a {
+  color: #3a2121;
 }
 #top_intro {
   display: block;
@@ -161,8 +165,11 @@ h4 {
   line-height: 2.5rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
+  width: 62vw;
+  text-align: justify;
   color: rgb(246 242 239);
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 5px rgb(84 46 46 / 35%);
+  /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
 }
 
 #carts .service-bottom {
@@ -200,14 +207,14 @@ h4 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-#carts .carts-item p {
+/* #carts .carts-item p {
   font-size: 1.6rem;
   color: #ffffff;
   font-weight: 300;
   line-height: 2.5rem;
   margin-bottom: 30px;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
-}
+} */
 
 .icon {
   max-width: 600px;
@@ -247,6 +254,7 @@ h4 {
   justify-content: center;
   flex-direction: column;
   padding: 30px;
+  min-height: 55vh;
   border-radius: 10px;
   background-size: auto;
   background-repeat: no-repeat;
@@ -254,24 +262,44 @@ h4 {
   margin: 10px 5%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   position: relative;
+  min-width: 65vw;
 }
 #carts .carts-item p {
   font-size: 1.6rem;
   color: #3a2121;
   font-weight: bolder;
   line-height: 2.5rem;
+  padding: 0 8px 0 0;
+  text-align: justify;
   margin-bottom: 30px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  /* text-shadow: 2px 2px 5px rgb(84 46 46 / 35%); */
+  text-shadow: 1px 1px 2px rgb(84 46 46 / 35%);
+  /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
 }
 
 /* End carts Section */
-
+#info {
+  padding: 20px;
+  width: 57vw;
+  margin: auto;
+  font-size: 1.3rem;
+  color: #ffffff;
+  line-height: 1.5rem;
+}
+#info h2 {
+  padding-bottom: 20px;
+}
 /* social */
 .icon_acc img,
 .social-icons li img {
   width: 60px;
+  padding: 5px 0 0 0px;
 }
-
+.user-accounts-item a {
+  font-size: 1.3rem;
+  color: #3a2121;
+  line-height: 2.5rem;
+}
 .social-icons li {
   list-style: none;
   display: inline-block;
