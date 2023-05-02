@@ -32,6 +32,17 @@
   line-height: 1.8rem;
   padding: 0 0.4rem;
 }
+p.ingredients,
+p.hlbls {
+  color: #a5a4a4;
+  line-height: 1.7rem;
+}
+p.ingredients:after,
+p.hlbls:after {
+  content: ":";
+  color: #a5a4a4;
+}
+
 .dietLbls li {
   list-style: none;
   color: #a5a4a4;
